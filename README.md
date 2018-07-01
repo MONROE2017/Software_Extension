@@ -3,9 +3,10 @@ Steps to execute:
 1.	Install Kurento media server at your server: http://doc-kurento.readthedocs.io/en/latest/user/installation.html
 2.	At the same machine you should run 2 java applications:
 
-   2.1. 	kurento-qos It is build for maven, command to execute sudo mvn compile exec:java 
+      2.1. 	kurento-qos It is build for maven, command to execute sudo mvn compile exec:java 
 
-   2.2. 	kurento-recording It is build for maven, command to execute sudo mvn compile exec:java
+      2.2. 	kurento-recording It is build for maven, command to execute sudo mvn compile exec:java
+   
 The most important files here are:
 1.	index.js allows you to edit WebRTC constraints such as: framerate, video width, video height, etc. There is a perfect website, which shows how to form minimal constraints: https://webrtc.github.io/samples/src/content/peerconnection/constraints/
 You can read a lot more about Kurento platform at this link:
