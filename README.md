@@ -9,12 +9,12 @@ Steps to execute:
    
 3.    The most important file here are:
 
-      index.js allows you to edit WebRTC constraints such as: framerate, video width, video height, etc. There is a perfect website, which shows how to form minimal constraints: https://webrtc.github.io/samples/src/content/peerconnection/constraints/
+      3.1.  index.js allows you to edit WebRTC constraints such as: framerate, video width, video height, etc. There is a perfect website, which shows how to form minimal constraints: https://webrtc.github.io/samples/src/content/peerconnection/constraints/
 
-      extension.tar.gz contains both kurento-qos and kurento-recording applications
+      3.2.  extension.tar.gz contains both kurento-qos and kurento-recording applications
 
-You can read a lot more about Kurento platform at this link:
-http://doc-kurento.readthedocs.io/en/latest/index.html
+      You can read a lot more about Kurento platform at this link:
+      http://doc-kurento.readthedocs.io/en/latest/index.html
 
 
 4.	In this repository is also held template folder for Monroe container for minimal functionality you should edit index.html file before. It is nacessary to change server address.
