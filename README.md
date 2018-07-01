@@ -8,9 +8,10 @@ Steps to execute:
       2.2. 	kurento-recording It is build for maven, command to execute sudo mvn compile exec:java
    
 3.    The most important file here are:
-index.js allows you to edit WebRTC constraints such as: framerate, video width, video height, etc. There is a perfect website, which shows how to form minimal constraints: https://webrtc.github.io/samples/src/content/peerconnection/constraints/
 
-extension.tar.gz contains both kurento-qos and kurento-recording applications
+      index.js allows you to edit WebRTC constraints such as: framerate, video width, video height, etc. There is a perfect website, which shows how to form minimal constraints: https://webrtc.github.io/samples/src/content/peerconnection/constraints/
+
+      extension.tar.gz contains both kurento-qos and kurento-recording applications
 
 You can read a lot more about Kurento platform at this link:
 http://doc-kurento.readthedocs.io/en/latest/index.html
