@@ -15,6 +15,8 @@ Steps to execute:
 
 You can read a lot more about Kurento platform at this link:
 http://doc-kurento.readthedocs.io/en/latest/index.html
+
+
 4.	In this repository is also held template folder for Monroe container for minimal functionality you should edit index.html file before. It is nacessary to change server address.
 After all these operations it is possible to run container.
 There is an alternative for v4l2loopback and ffmpeg: google-chrome launch argument which was created to test getUserMedia() function for developers. https://testrtc.com/y4m-video-chrome/
